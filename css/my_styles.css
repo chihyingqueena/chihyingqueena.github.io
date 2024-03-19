@@ -12,3 +12,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .blueblue{
     color:#6babdb;
 }
+.expedu_icon{
+    color: red;
+}
+.expedu_icon:hover{
+    color: white;
+    background-color: red;
+}
