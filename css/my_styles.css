@@ -7,7 +7,12 @@
 
 
 }
-p.redred{
+div.redred{
+    padding: 50px;
+    border: 10px solid rgb(115, 187, 192);
+    border-radius: 5px;
+    margin: 0px 0px 100px 0px;
+
     background-color: black;
     color: white;
     border: 20px solid;
