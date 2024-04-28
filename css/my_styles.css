@@ -34,9 +34,69 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color:#6babdb;
 }
 .expedu_icon{
-    color: red;
+    color: #C6D2BE;
 }
 .expedu_icon:hover{
-    color: white;
-    background-color: red;
+    color: #EBEBE3;
+    background-color: #83B1C9;
 }
+.bob-3item{
+    width: 100%;
+}
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3列 */
+    gap: 10px; /* 每张照片之间的间距 */
+}
+
+/* 设置固定的宽度和高度 */
+.photo-grid img {
+    width: 100px; /* 固定宽度 */
+    height: 100px; /* 固定高度 */
+    object-fit: cover; /* 确保图片填充整个框 */
+    border: 2px solid #ccc; /* 照片边框 */
+    border-radius: 5px; /* 边框圆角 */
+    width: 100%; /* 照片占满所在列 */
+    height: auto;
+}
+table {
+    border-collapse: collapse; /* 移除边框之间的间隔 */
+    width: 100%; /* 表格宽度占满容器 */
+}
+table {
+    width: 100%; /* 表格宽度占满 */
+    border-collapse: collapse; /* 合并边框 */
+    background-color: #83B1C9; /* 整个表格的背景色 */
+}
+
+/* 设置表头的背景颜色和文本颜色 */
+th {
+    background-color: #EDE1E3; /* 表头背景色 */
+    color: #909FA6; /* 表头文本颜色 */
+    padding: 10px; /* 内部间距 */
+}
+
+/* 设置表格行的背景颜色 */
+tr {
+    background-color: #CCDBE2; /* 默认行背景色 */
+}
+
+/* 设置表格单元格的边框和文本颜色 */
+td {
+    border: 1px solid #BDC2BB; /* 单元格边框 */
+    padding: 10px; /* 内部间距 */
+    color: #333; /* 单元格文本颜色 */
+}
+
+/* 改变偶数行的背景颜色，实现条纹效果 */
+tr:nth-child(even) {
+    background-color: #CCDBE2; /* 偶数行背景色 */
+}
+
+/* 当鼠标悬停在行上时改变颜色 */
+tr:hover {
+    background-color: #ECD4D4; /* 悬停行的背景色 */
+}
+
+
+
