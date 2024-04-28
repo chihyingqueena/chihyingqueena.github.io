@@ -78,7 +78,7 @@ th {
 
 /* 设置表格行的背景颜色 */
 tr {
-    background-color: #CCDBE2; /* 默认行背景色 */
+    background-color: #F0F8FF; /* 默认行背景色 */
 }
 
 /* 设置表格单元格的边框和文本颜色 */
@@ -90,13 +90,12 @@ td {
 
 /* 改变偶数行的背景颜色，实现条纹效果 */
 tr:nth-child(even) {
-    background-color: #CCDBE2; /* 偶数行背景色 */
+    background-color: #F0F8FF; /* 偶数行背景色 */
 }
 
 /* 当鼠标悬停在行上时改变颜色 */
 tr:hover {
-    background-color: #ECD4D4; /* 悬停行的背景色 */
+    background-color: #FDEEF4; /* 悬停行的背景色 */
 }
-
 
 
