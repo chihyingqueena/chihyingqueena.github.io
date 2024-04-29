@@ -16,7 +16,7 @@ div.redred{
     background-color: black;
     color: white;
     border: 20px solid;
-    border-color: brown;
+    border-color: #83B1C9;
     background-image: url(../assets/img/deapseaaa1.png);
     font-size:40px;
     text-align: center;
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color:#6babdb;
 }
 .expedu_icon{
-    color: #C6D2BE;
+    color: #92a3ef;
 }
 .expedu_icon:hover{
     color: #EBEBE3;
@@ -97,5 +97,18 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #FDEEF4; /* 悬停行的背景色 */
 }
-
-
+.overflowtest{
+background-color: #a3b6c5;
+color: white;
+padding: 10px 20px;
+border-radius: 15pxi;
+width: 50%;
+margin: 30px auto;
+height: 215px;
+overflow: scroll;
+}
+body {
+    background-image: linear-gradient(to bottom,  #accbee ,#bac8e0,#f3e7e9, #d1ddd8); /* 线性渐变，顶部到底部 */
+    height: 700vh; /* 确保页面高度 */
+    margin: 0; /* 移默认边距 */
+}
